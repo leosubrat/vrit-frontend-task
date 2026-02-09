@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "VRIT Jobs",
+    "location": "Kathmandu, Nepal",
+    "jobType": "Internship",
+    "workMode": "On-site",
+    "skills": ["React", "JavaScript", "CSS"],
+    "image": "frontend-intern",
+    "description": "We are looking for a talented Frontend Developer to join our team. You will be responsible for implementing visual elements that users interact with in a web application. You will work closely with designers, backend developers, and product managers to create seamless, responsive, and user-friendly interfaces.",
+    "responsibilities": [
+      "Develop new user-facing features using React.js",
+      "Build reusable components and front-end libraries",
+      "Translate designs and wireframes into high-quality code",
+      "Optimize components for maximum performance"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Designer",
+    "company": "PixelCraft Studio",
+    "location": "Lalitpur, Nepal",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "skills": ["Figma", "Wireframing", "Prototyping"],
+    "image": "uiux-designer",
+    "description": "Join our creative team as a UI/UX Designer where you'll craft beautiful and intuitive user experiences. You'll be responsible for the entire design process from research to final implementation, working closely with developers and stakeholders.",
+    "responsibilities": [
+      "Create user-centered designs by understanding business requirements",
+      "Design UI mockups and prototypes",
+      "Conduct user research and usability testing",
+      "Collaborate with development team for implementation"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "React Developer",
+    "company": "TechHive Solutions",
+    "location": "Remote",
+    "jobType": "Full Time",
+    "workMode": "Remote",
+    "skills": ["React", "Next.js", "REST API"],
+    "image": "react-developer",
+    "description": "We are seeking an experienced React Developer to build scalable web applications. You will work on cutting-edge projects using the latest technologies and best practices in modern web development.",
+    "responsibilities": [
+      "Build and maintain React applications",
+      "Integrate with REST APIs and backend services",
+      "Write clean, maintainable, and testable code",
+      "Participate in code reviews and team meetings"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer",
+    "company": "DevHub Nepal",
+    "location": "Kathmandu, Nepal",
+    "jobType": "Full-time",
+    "workMode": "On-site",
+    "skills": ["React", "Node.js", "MongoDB", "Express"],
+    "image": "fullstack-developer",
+    "description": "Join our team as a Full Stack Developer and work on exciting projects that impact thousands of users. You'll be responsible for both frontend and backend development using modern JavaScript technologies.",
+    "responsibilities": [
+      "Develop full-stack web applications",
+      "Design and implement RESTful APIs",
+      "Work with databases and data modeling",
+      "Deploy and maintain applications on cloud platforms"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Backend Developer",
+    "company": "CodeCraft Inc",
+    "location": "Pokhara, Nepal",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "skills": ["Node.js", "Python", "PostgreSQL", "Docker"],
+    "image": "backend-developer",
+    "description": "We're looking for a skilled Backend Developer to join our growing team. You'll build robust server-side applications and APIs that power our web and mobile applications.",
+    "responsibilities": [
+      "Design and develop server-side logic",
+      "Optimize application performance and scalability",
+      "Implement security and data protection measures",
+      "Collaborate with frontend developers for API integration"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Developer",
+    "company": "AppVenture Labs",
+    "location": "Kathmandu, Nepal",
+    "jobType": "Contract",
+    "workMode": "Remote",
+    "skills": ["React Native", "Flutter", "iOS", "Android"],
+    "image": "mobile-developer",
+    "description": "Create beautiful mobile applications for iOS and Android platforms. You'll work with cross-platform technologies to deliver high-quality mobile experiences.",
+    "responsibilities": [
+      "Develop mobile applications using React Native/Flutter",
+      "Ensure app performance and responsiveness",
+      "Work with native modules when needed",
+      "Submit apps to App Store and Play Store"
+    ]
+  }
+]
