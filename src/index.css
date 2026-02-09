@@ -11,6 +11,10 @@
     color: var(--color-primary);
   }
 
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
   .font-body {
     font-family: var(--font-primary);
   }
