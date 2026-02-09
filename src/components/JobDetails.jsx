@@ -18,13 +18,14 @@ const JobDetails = ({ job, onClose, onApply }) => {
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto border-2 border-gray-300 shadow-xl"
+          className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto border-2 border-gray-300 shadow-xl relative"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="absolute top-18 right-130 text-2xl font-bold cursor-pointer text-gray-500 hover:text-gray-600"
+            className="absolute top-4 right-4 text-3xl font-bold text-gray-500 hover:text-gray-700 transition-colors w-8 h-8 flex items-center justify-center"
+            aria-label="Close"
           >
             ×
           </button>
@@ -34,9 +35,7 @@ const JobDetails = ({ job, onClose, onApply }) => {
             <h2 className="font-heading text-3xl font-bold mb-2">
               {job.title}
             </h2>
-            <p className="font-body text-lg text-gray-700 mb-1">
-              {job.company}
-            </p>
+            <p className="font-body text-primary text-lg mb-1">{job.company}</p>
             <p className="font-body text-gray-600 mb-4">📍 {job.location}</p>
 
             {/* Job Description */}
@@ -83,7 +82,7 @@ const JobDetails = ({ job, onClose, onApply }) => {
             {/* Apply Button */}
             <button
               onClick={() => onApply(job)}
-              className="mx-auto block p-5 bg-primary text-white py-2 rounded cursor-pointer hover:opacity-90 transition-colors"
+              className="mx-auto block px-8 py-3 bg-primary text-white font-semibold rounded cursor-pointer hover:opacity-90 transition-opacity"
             >
               Apply Now
             </button>
