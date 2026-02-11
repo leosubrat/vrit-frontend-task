@@ -4,7 +4,6 @@ import reactImage from "../assets/React.png";
 import defaultImage from "../assets/Default.png";
 
 const JobCard = ({ job, onViewDetails }) => {
-  // Returns the image based on job.image or default
   const getJobImage = (imageName) => {
     const images = {
       "frontend-intern": frontendImage,

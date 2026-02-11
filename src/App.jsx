@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header";
@@ -20,13 +19,10 @@ function App() {
   };
 
   const handleApply = (job) => {
-    // Show success toast
     setShowToast(true);
 
-    // Close modal
     setSelectedJob(null);
 
-    // Hide toast after 3 seconds
     setTimeout(() => {
       setShowToast(false);
     }, 3000);
